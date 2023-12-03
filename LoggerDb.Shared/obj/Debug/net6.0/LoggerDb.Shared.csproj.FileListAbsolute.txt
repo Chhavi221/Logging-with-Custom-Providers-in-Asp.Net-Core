@@ -1,0 +1,13 @@
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\bin\Debug\net6.0\LoggerDb.Shared.deps.json
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\bin\Debug\net6.0\LoggerDb.Shared.dll
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\bin\Debug\net6.0\LoggerDb.Shared.pdb
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.csproj.AssemblyReference.cache
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.AssemblyInfoInputs.cache
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.AssemblyInfo.cs
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.csproj.CoreCompileInputs.cache
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.sourcelink.json
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.dll
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\refint\LoggerDb.Shared.dll
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\LoggerDb.Shared.pdb
+C:\Ddrive\Chhavi\Projects\Net Core\DbLoggingLibrary\RoundTheCode.LoggerDb.Shared\obj\Debug\net6.0\ref\LoggerDb.Shared.dll

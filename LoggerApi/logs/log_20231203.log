@@ -1,0 +1,342 @@
+[2023-12-03T16:17:19.853Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T16:17:19.853Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T16:17:19.853Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T16:17:19.853Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T16:17:19.853Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T16:17:22.715Z] [13] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger - - - 
+[2023-12-03T16:17:22.841Z] [9] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger - 404 0 - 130.1238ms 
+[2023-12-03T16:17:22.843Z] [9] [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/swagger, Response status code: 404 
+[2023-12-03T16:17:30.394Z] [9] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T16:17:30.409Z] [14] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T16:17:30.423Z] [14] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T16:17:36.919Z] [14] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T16:17:36.952Z] [14] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T16:17:36.953Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 6559.1633ms 
+[2023-12-03T16:17:36.953Z] [14] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 6525.0521ms 
+[2023-12-03T16:51:08.318Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T16:51:08.313Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T16:51:08.313Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T16:51:08.313Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T16:51:08.313Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T16:51:13.147Z] [17] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger - - - 
+[2023-12-03T16:51:17.632Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger - 404 0 - 4861.6349ms 
+[2023-12-03T16:51:22.723Z] [17] [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/swagger, Response status code: 404 
+[2023-12-03T17:13:23.163Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T17:13:23.163Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T17:13:23.163Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T17:13:23.163Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T17:13:23.163Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T17:13:23.272Z] [10] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger - - - 
+[2023-12-03T17:13:23.409Z] [16] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger - 301 0 - 142.9364ms 
+[2023-12-03T17:13:23.414Z] [15] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T17:13:23.477Z] [10] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 63.0021ms 
+[2023-12-03T17:13:23.490Z] [10] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - - - 
+[2023-12-03T17:13:23.490Z] [15] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - - - 
+[2023-12-03T17:13:23.490Z] [17] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - - - 
+[2023-12-03T17:13:23.516Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 200 143632 text/css 26.5914ms 
+[2023-12-03T17:13:23.516Z] [16] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 200 337162 text/javascript 26.2039ms 
+[2023-12-03T17:13:23.525Z] [17] [Information] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+[2023-12-03T17:13:23.525Z] [16] [Information] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+[2023-12-03T17:13:23.525Z] [16] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T17:13:23.532Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 6.8159ms 
+[2023-12-03T17:13:23.535Z] [20] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T17:13:23.542Z] [15] [Information] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+[2023-12-03T17:13:23.543Z] [15] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 200 1092889 text/javascript 52.2173ms 
+[2023-12-03T17:13:23.605Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 70.9686ms 
+[2023-12-03T17:13:23.837Z] [17] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T17:13:23.868Z] [20] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/favicon-32x32.png - - - 
+[2023-12-03T17:13:23.870Z] [20] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/favicon-32x32.png - 200 628 image/png 1.6053ms 
+[2023-12-03T17:13:23.869Z] [20] [Information] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+[2023-12-03T17:13:23.910Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 74.1834ms 
+[2023-12-03T17:13:55.063Z] [23] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T17:13:55.072Z] [23] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:13:55.096Z] [23] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:14:04.439Z] [23] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:14:04.456Z] [23] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:14:04.456Z] [23] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 9394.9168ms 
+[2023-12-03T17:14:04.457Z] [23] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 9354.3711ms 
+[2023-12-03T17:19:10.675Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T17:19:10.675Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T17:19:10.675Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T17:19:10.707Z] [5] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger - - - 
+[2023-12-03T17:19:11.416Z] [13] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - - - 
+[2023-12-03T17:19:11.431Z] [10] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger - 301 - - 728.2637ms 
+[2023-12-03T17:19:11.496Z] [9] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/index.html - 200 - text/html;charset=utf-8 80.2223ms 
+[2023-12-03T17:19:11.524Z] [13] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/swagger-ui.css - - - 
+[2023-12-03T17:19:11.526Z] [5] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/swagger-ui-standalone-preset.js - - - 
+[2023-12-03T17:19:11.534Z] [18] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/swagger-ui-bundle.js - - - 
+[2023-12-03T17:19:11.536Z] [9] [Information] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - - - 
+[2023-12-03T17:19:11.536Z] [10] [Information] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T17:19:11.564Z] [10] [Information] Request finished HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 37.7197ms 
+[2023-12-03T17:19:11.590Z] [5] [Information] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+[2023-12-03T17:19:11.591Z] [18] [Information] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+[2023-12-03T17:19:11.592Z] [24] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/swagger-ui.css - 200 143632 text/css 80.9304ms 
+[2023-12-03T17:19:11.592Z] [13] [Information] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+[2023-12-03T17:19:11.612Z] [25] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/swagger-ui-standalone-preset.js - 200 337162 text/javascript 86.9583ms 
+[2023-12-03T17:19:11.614Z] [26] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/swagger-ui-bundle.js - 200 1092889 text/javascript 103.8545ms 
+[2023-12-03T17:19:13.437Z] [25] [Information] Request finished HTTP/2 GET https://localhost:44377/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1911.8691ms 
+[2023-12-03T17:19:13.476Z] [26] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 
+[2023-12-03T17:19:13.492Z] [7] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/favicon-32x32.png - - - 
+[2023-12-03T17:19:13.494Z] [7] [Information] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+[2023-12-03T17:19:13.494Z] [7] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/favicon-32x32.png - 200 628 image/png 1.7170ms 
+[2023-12-03T17:19:13.590Z] [26] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 114.1303ms 
+[2023-12-03T17:35:35.970Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T17:35:35.970Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T17:35:35.970Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T17:35:35.997Z] [5] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - - - 
+[2023-12-03T17:35:36.444Z] [10] [Information] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T17:35:36.444Z] [7] [Information] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - - - 
+[2023-12-03T17:35:38.319Z] [18] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 
+[2023-12-03T17:36:03.952Z] [18] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:36:03.988Z] [18] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:36:04.022Z] [18] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:36:08.582Z] [18] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:36:08.611Z] [18] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:36:08.617Z] [18] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 4588.03ms 
+[2023-12-03T17:37:41.997Z] [3] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:37:42.000Z] [3] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:37:42.003Z] [3] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:37:42.005Z] [3] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:37:42.016Z] [3] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 2468.7318ms 
+[2023-12-03T17:37:42.019Z] [3] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:37:44.729Z] [32] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:37:44.729Z] [32] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:37:44.730Z] [32] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:37:50.244Z] [32] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:37:50.246Z] [32] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 5516.2956ms 
+[2023-12-03T17:37:50.246Z] [32] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:50:28.462Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T17:50:28.462Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T17:50:28.462Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T17:50:28.479Z] [17] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - - - 
+[2023-12-03T17:50:31.655Z] [16] [Information] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T17:50:31.674Z] [18] [Information] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - - - 
+[2023-12-03T17:50:31.808Z] [16] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 
+[2023-12-03T17:50:37.997Z] [25] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:50:38.011Z] [25] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:50:38.035Z] [25] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:50:38.058Z] [25] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:50:38.094Z] [25] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:50:38.113Z] [25] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 58.0035ms 
+[2023-12-03T17:50:40.163Z] [16] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:50:40.165Z] [16] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:50:40.168Z] [16] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:50:40.172Z] [16] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:50:40.172Z] [16] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:50:40.172Z] [16] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 4.9643ms 
+[2023-12-03T17:51:03.511Z] [16] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:51:03.511Z] [16] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:03.512Z] [16] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:51:03.512Z] [16] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:51:03.524Z] [16] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 9.0506ms 
+[2023-12-03T17:51:03.524Z] [16] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:04.201Z] [30] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:51:04.202Z] [30] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:04.203Z] [30] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:51:04.203Z] [30] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 1.3076ms 
+[2023-12-03T17:51:04.205Z] [30] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:04.205Z] [30] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:51:05.419Z] [16] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:51:05.420Z] [16] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:05.420Z] [16] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:51:05.420Z] [16] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:05.420Z] [16] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 0.6712ms 
+[2023-12-03T17:51:05.420Z] [16] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:51:48.602Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T17:51:48.602Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T17:51:48.602Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T17:51:48.621Z] [9] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - - - 
+[2023-12-03T17:51:48.798Z] [13] [Information] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T17:51:48.800Z] [9] [Information] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - - - 
+[2023-12-03T17:51:48.805Z] [10] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/index.html - 200 - text/html;charset=utf-8 184.0017ms 
+[2023-12-03T17:51:48.811Z] [13] [Information] Request finished HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 10.7956ms 
+[2023-12-03T17:51:48.847Z] [19] [Information] Request finished HTTP/2 GET https://localhost:44377/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 48.8072ms 
+[2023-12-03T17:51:48.885Z] [19] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 
+[2023-12-03T17:51:48.939Z] [19] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 53.6854ms 
+[2023-12-03T17:51:53.315Z] [10] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:51:53.321Z] [10] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:53.331Z] [10] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:51:53.343Z] [10] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:51:53.375Z] [10] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:53.375Z] [10] [Information] Request finished HTTP/2 GET https://localhost:44377/WeatherForecast - 200 - application/json;+charset=utf-8 59.6457ms 
+[2023-12-03T17:51:53.376Z] [10] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 36.1044ms 
+[2023-12-03T17:51:54.942Z] [20] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:51:54.945Z] [20] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:54.945Z] [20] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:51:54.949Z] [20] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:51:54.950Z] [20] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:51:54.950Z] [20] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 5.4545ms 
+[2023-12-03T17:51:54.951Z] [20] [Information] Request finished HTTP/2 GET https://localhost:44377/WeatherForecast - 200 - application/json;+charset=utf-8 8.0837ms 
+[2023-12-03T17:55:41.172Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T17:55:41.172Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T17:55:41.172Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T17:55:41.190Z] [7] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/index.html - - - 
+[2023-12-03T17:55:41.359Z] [9] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/index.html - 200 - text/html;charset=utf-8 179.2661ms 
+[2023-12-03T17:55:41.369Z] [5] [Information] Request starting HTTP/2 GET https://localhost:44377/_vs/browserLink - - - 
+[2023-12-03T17:55:41.369Z] [14] [Information] Request starting HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T17:55:41.374Z] [14] [Information] Request finished HTTP/2 GET https://localhost:44377/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 4.8469ms 
+[2023-12-03T17:55:41.406Z] [14] [Information] Request finished HTTP/2 GET https://localhost:44377/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 37.3282ms 
+[2023-12-03T17:55:41.447Z] [13] [Information] Request starting HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - - - 
+[2023-12-03T17:55:41.520Z] [13] [Information] Request finished HTTP/2 GET https://localhost:44377/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 72.5180ms 
+[2023-12-03T17:55:49.198Z] [21] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:55:49.214Z] [21] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:55:49.240Z] [21] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:55:49.261Z] [21] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:55:49.306Z] [21] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:55:49.306Z] [21] [Information] Request finished HTTP/2 GET https://localhost:44377/WeatherForecast - 200 - application/json;+charset=utf-8 109.0541ms 
+[2023-12-03T17:55:49.308Z] [21] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 56.5214ms 
+[2023-12-03T17:55:50.654Z] [22] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:55:50.660Z] [22] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:55:50.661Z] [22] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:55:50.667Z] [22] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 9.8198ms 
+[2023-12-03T17:55:50.668Z] [22] [Information] Request finished HTTP/2 GET https://localhost:44377/WeatherForecast - 200 - application/json;+charset=utf-8 13.5091ms 
+[2023-12-03T17:55:50.668Z] [22] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:55:50.671Z] [22] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:55:51.363Z] [9] [Information] Request starting HTTP/2 GET https://localhost:44377/WeatherForecast - - - 
+[2023-12-03T17:55:51.366Z] [9] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:55:51.366Z] [9] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T17:55:51.371Z] [9] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T17:55:51.372Z] [9] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 8.4053ms 
+[2023-12-03T17:55:51.373Z] [9] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T17:55:51.375Z] [9] [Information] Request finished HTTP/2 GET https://localhost:44377/WeatherForecast - 200 - application/json;+charset=utf-8 11.1091ms 
+[2023-12-03T18:07:25.478Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T18:07:25.478Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T18:07:25.478Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T18:07:25.478Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T18:07:25.478Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T18:07:28.471Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T18:07:28.669Z] [13] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 202.9658ms 
+[2023-12-03T18:07:28.688Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T18:07:28.688Z] [13] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T18:07:28.713Z] [10] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 24.8472ms 
+[2023-12-03T18:07:28.751Z] [10] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 63.2908ms 
+[2023-12-03T18:07:28.859Z] [10] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T18:07:28.920Z] [10] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 61.0466ms 
+[2023-12-03T18:07:41.297Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:07:41.307Z] [14] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:07:41.316Z] [14] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:07:41.323Z] [14] [Information] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:08:03.129Z] [14] [Error] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:08:03.142Z] [14] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T18:08:03.153Z] [14] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:08:03.153Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 21857.4036ms 
+[2023-12-03T18:08:03.157Z] [14] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 21833.5041ms 
+[2023-12-03T18:09:09.195Z] [21] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:09:09.197Z] [21] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:09:09.198Z] [21] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:09:09.206Z] [21] [Information] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:09:16.648Z] [21] [Error] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:09:16.649Z] [21] [Information] Executing ObjectResult, writing value of type 'Logger.Api.WeatherForecast[]'. 
+[2023-12-03T18:09:16.649Z] [21] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 7455.4028ms 
+[2023-12-03T18:09:16.650Z] [21] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:09:16.650Z] [21] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 7453.2277ms 
+[2023-12-03T18:09:41.330Z] [5] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:09:41.331Z] [5] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:09:41.333Z] [5] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:09:51.955Z] [5] [Information] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:09:51.969Z] [5] [Error] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:13:09.104Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T18:13:09.104Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T18:13:09.104Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T18:13:09.104Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T18:13:09.104Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T18:13:09.523Z] [17] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T18:13:09.705Z] [10] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 184.5094ms 
+[2023-12-03T18:13:09.715Z] [5] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T18:13:09.715Z] [7] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T18:13:09.722Z] [16] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 7.2622ms 
+[2023-12-03T18:13:09.755Z] [16] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.8209ms 
+[2023-12-03T18:13:09.799Z] [15] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T18:13:09.858Z] [15] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 60.0333ms 
+[2023-12-03T18:13:14.908Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:13:14.913Z] [14] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:13:14.927Z] [14] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:13:14.929Z] [14] [Information] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get 
+[2023-12-03T18:13:35.172Z] [14] [Error] Logger.Api.Controllers.WeatherForecastController-Get=> Message: Executing Get    at Logger.Api.Controllers.WeatherForecastController.Get() in C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi\Controllers\WeatherForecastController.cs:line 32
+[2023-12-03T18:13:35.177Z] [14] [Information] Executing ObjectResult, writing value of type 'System.Linq.EmptyPartition`1[[Logger.Api.WeatherForecast, Logger.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2023-12-03T18:13:35.192Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 20284.1117ms 
+[2023-12-03T18:13:35.192Z] [14] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:13:35.195Z] [14] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 20257.6806ms 
+[2023-12-03T18:14:42.788Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T18:14:42.788Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T18:14:42.788Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T18:14:42.788Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T18:14:42.788Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T18:14:43.223Z] [17] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T18:14:43.389Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 169.6688ms 
+[2023-12-03T18:14:43.462Z] [9] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T18:14:43.462Z] [13] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T18:14:43.472Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 10.5173ms 
+[2023-12-03T18:14:43.511Z] [13] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 49.8349ms 
+[2023-12-03T18:14:43.579Z] [16] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T18:14:43.640Z] [16] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 61.5124ms 
+[2023-12-03T18:14:49.848Z] [15] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:14:49.854Z] [15] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:14:49.863Z] [15] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:14:49.869Z] [15] [Information] Message: Executing Get 
+[2023-12-03T18:15:58.353Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T18:15:58.353Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T18:15:58.353Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T18:15:58.353Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T18:15:58.353Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T18:15:58.861Z] [5] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T18:15:59.058Z] [13] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 200.7351ms 
+[2023-12-03T18:15:59.081Z] [7] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T18:15:59.081Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T18:15:59.095Z] [17] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 13.6788ms 
+[2023-12-03T18:15:59.125Z] [13] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 44.1868ms 
+[2023-12-03T18:15:59.178Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T18:15:59.242Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 64.2846ms 
+[2023-12-03T18:16:03.469Z] [10] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:16:03.474Z] [10] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:16:03.486Z] [10] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:16:13.344Z] [10] [Information] Message: Executing Get 
+[2023-12-03T18:18:20.897Z] [10] [Error] Message: Executing Get    at Logger.Api.Controllers.WeatherForecastController.Get() in C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi\Controllers\WeatherForecastController.cs:line 32
+[2023-12-03T18:18:20.902Z] [10] [Information] Executing ObjectResult, writing value of type 'System.Linq.EmptyPartition`1[[Logger.Api.WeatherForecast, Logger.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2023-12-03T18:18:20.914Z] [10] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 137445.4589ms 
+[2023-12-03T18:18:20.914Z] [10] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 137424.0434ms 
+[2023-12-03T18:18:20.914Z] [10] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:31:33.859Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T18:31:33.859Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T18:31:33.859Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T18:31:33.859Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T18:31:33.862Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi 
+[2023-12-03T18:31:36.608Z] [16] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T18:31:36.789Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 184.9474ms 
+[2023-12-03T18:31:36.795Z] [14] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T18:31:36.795Z] [9] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T18:31:36.800Z] [16] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 5.4112ms 
+[2023-12-03T18:31:36.833Z] [7] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 37.8319ms 
+[2023-12-03T18:31:36.889Z] [7] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T18:31:36.976Z] [7] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 87.6674ms 
+[2023-12-03T18:31:45.816Z] [5] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T18:31:45.823Z] [5] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:31:45.844Z] [5] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T18:31:51.161Z] [5] [Information] -Executing Get 
+[2023-12-03T18:31:55.924Z] [5] [Error] -Executing Get    at Logger.Api.Controllers.WeatherForecastController.Get() in C:\Ddrive\Chhavi\Projects\Net Core\LoggingLibrary\LoggerApi\Controllers\WeatherForecastController.cs:line 32
+[2023-12-03T18:31:55.929Z] [5] [Information] Executing ObjectResult, writing value of type 'System.Linq.EmptyPartition`1[[Logger.Api.WeatherForecast, Logger.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2023-12-03T18:31:55.942Z] [5] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T18:31:55.942Z] [5] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 10126.7494ms 
+[2023-12-03T18:31:55.943Z] [5] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 10093.7504ms 
+[2023-12-03T19:24:43.249Z] [1] [Information] Now listening on: https://localhost:7234 
+[2023-12-03T19:24:43.249Z] [1] [Information] Now listening on: http://localhost:5234 
+[2023-12-03T19:24:43.249Z] [1] [Information] Application started. Press Ctrl+C to shut down. 
+[2023-12-03T19:24:43.249Z] [1] [Information] Content root path: C:\Ddrive\Chhavi\Projects\Net Core\Repo\LoggingLibrary\LoggerApi 
+[2023-12-03T19:24:43.249Z] [1] [Information] Hosting environment: Development 
+[2023-12-03T19:24:43.926Z] [7] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - - - 
+[2023-12-03T19:24:44.351Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 - text/html;charset=utf-8 429.4987ms 
+[2023-12-03T19:24:44.364Z] [10] [Information] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - - - 
+[2023-12-03T19:24:44.364Z] [13] [Information] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - - - 
+[2023-12-03T19:24:44.401Z] [13] [Information] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 35.5585ms 
+[2023-12-03T19:24:46.215Z] [14] [Information] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1850.9641ms 
+[2023-12-03T19:24:46.244Z] [5] [Information] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - - - 
+[2023-12-03T19:24:46.298Z] [5] [Information] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 54.1312ms 
+[2023-12-03T19:24:52.908Z] [13] [Information] Request starting HTTP/2 GET https://localhost:7234/WeatherForecast - - - 
+[2023-12-03T19:24:52.913Z] [13] [Information] Executing endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T19:24:52.927Z] [13] [Information] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logger.Api.WeatherForecast] Get() on controller Logger.Api.Controllers.WeatherForecastController (Logger.Api). 
+[2023-12-03T19:24:57.982Z] [13] [Information] -Executing Get 
+[2023-12-03T19:25:05.847Z] [13] [Error] -Executing Get    at Logger.Api.Controllers.WeatherForecastController.Get() in C:\Ddrive\Chhavi\Projects\Net Core\Repo\LoggingLibrary\LoggerApi\Controllers\WeatherForecastController.cs:line 32
+[2023-12-03T19:25:05.853Z] [13] [Information] Executing ObjectResult, writing value of type 'System.Linq.EmptyPartition`1[[Logger.Api.WeatherForecast, Logger.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2023-12-03T19:25:05.863Z] [13] [Information] Executed endpoint 'Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api)' 
+[2023-12-03T19:25:05.863Z] [13] [Information] Request finished HTTP/2 GET https://localhost:7234/WeatherForecast - 200 - application/json;+charset=utf-8 12955.4787ms 
+[2023-12-03T19:25:05.864Z] [13] [Information] Executed action Logger.Api.Controllers.WeatherForecastController.Get (Logger.Api) in 12932.7094ms 

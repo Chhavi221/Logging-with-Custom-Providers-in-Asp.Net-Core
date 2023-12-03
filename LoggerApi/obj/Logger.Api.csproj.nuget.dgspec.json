@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerApi\\Logger.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerApi\\Logger.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerApi\\Logger.Api.csproj",
+        "projectName": "Logger.Api",
+        "projectPath": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerApi\\Logger.Api.csproj",
+        "packagesPath": "C:\\Users\\Advika\\.nuget\\packages\\",
+        "outputPath": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Advika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerDb.Shared\\Logger.Shared.csproj": {
+                "projectPath": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerDb.Shared\\Logger.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerDb.Shared\\Logger.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerDb.Shared\\Logger.Shared.csproj",
+        "projectName": "Logger.Shared",
+        "projectPath": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerDb.Shared\\Logger.Shared.csproj",
+        "packagesPath": "C:\\Users\\Advika\\.nuget\\packages\\",
+        "outputPath": "C:\\Ddrive\\Chhavi\\Projects\\Net Core\\Repo\\LoggingLibrary\\LoggerDb.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Advika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

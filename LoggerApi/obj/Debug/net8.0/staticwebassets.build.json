@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RXZrBKtnTQoOkCApPnKvNQNg49qhWNjy0ngvWEeY2eE=",
+  "Source": "Logger.Api",
+  "BasePath": "_content/Logger.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
